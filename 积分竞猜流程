@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T09:45:05.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S-k5Fn9aeJdEkXhvHRzn" version="20.8.19" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T09:56:18.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wKZ9eTh1JNRRLtWhyJQT" version="20.8.19" type="github">
   <diagram name="第 1 页" id="NpQdR6t2OwO7Ykp7SzIa">
     <mxGraphModel dx="2057" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
           <mxGeometry x="110.5" y="760" width="59" height="78" as="geometry" />
         </mxCell>
         <mxCell id="WyxHf5g6WFu-xEr9Hl8r-27" value="OA" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#232F3E;fillColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.application;" vertex="1" parent="1">
-          <mxGeometry x="363" y="730" width="60" height="60" as="geometry" />
+          <mxGeometry x="363" y="750" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WyxHf5g6WFu-xEr9Hl8r-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;" edge="1" parent="1" source="WyxHf5g6WFu-xEr9Hl8r-32" target="WyxHf5g6WFu-xEr9Hl8r-5">
           <mxGeometry relative="1" as="geometry" />
@@ -95,16 +95,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-50" value="更新竞猜结果" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;fontColor=#190033;startArrow=none;startFill=0;" edge="1" parent="1" source="WyxHf5g6WFu-xEr9Hl8r-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-370" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-50" value="计算竞猜结果" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="-270" y="769" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WyxHf5g6WFu-xEr9Hl8r-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=14;startArrow=none;startFill=0;" edge="1" parent="1" source="WyxHf5g6WFu-xEr9Hl8r-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="390" y="810" as="targetPoint" />
+            <mxPoint x="390" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WyxHf5g6WFu-xEr9Hl8r-55" value="奖励/退回积分" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="80" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-60" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;ws&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#190033;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="780" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
