@@ -1,1 +1,52 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T08:40:42.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.19" etag="QeodldW0IfIp6h4wVpDt" type="github"><diagram name="第 1 页" id="NpQdR6t2OwO7Ykp7SzIa">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-10T08:50:12.204Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AQQgBu3uCFdyiLnhul2E" version="20.8.19" type="github">
+  <diagram name="第 1 页" id="NpQdR6t2OwO7Ykp7SzIa">
+    <mxGraphModel dx="1230" dy="673" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-3" value="创建竞猜" style="shape=mxgraph.flowchart.process;fillColor=#CCFF99;" vertex="1" parent="1">
+          <mxGeometry x="90" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-5" value="参与竞猜" style="shape=mxgraph.flowchart.process;fillColor=#B3FF66;" vertex="1" parent="1">
+          <mxGeometry x="343" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-7" value="竞猜结算" style="shape=mxgraph.flowchart.process;fillColor=#99FF33;" vertex="1" parent="1">
+          <mxGeometry x="600" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="139.5" y="607" as="targetPoint" />
+            <mxPoint x="139.5" y="561" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.5" y="606" as="targetPoint" />
+            <mxPoint x="392.5" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.5" y="606" as="targetPoint" />
+            <mxPoint x="649.5" y="560" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-11" value="1.建仓/平仓价格&#xa;的获取机制&#xa;（调度任务）&#xa;2.价格支持手动补回" style="shape=mxgraph.basic.document;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="75" y="610" width="130" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-12" value="1.用户参与竞猜，&#xa;实时扣除积分" style="shape=mxgraph.basic.document;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="328" y="610" width="130" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-13" value="1.生成竞猜结果&#xa;2.计算用户的竞猜结果&#xa;3.推送结果给用户" style="shape=mxgraph.basic.document;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="577.5" y="610" width="145" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-14" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WyxHf5g6WFu-xEr9Hl8r-15" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="500" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
