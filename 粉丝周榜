@@ -1,14 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-03-09T08:35:38.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="ewY2tBGlsKfVfsl5dFJy" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-09T08:37:12.601Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="K8pYc8IbLBOTaAZVg7t-" version="21.0.2" type="github">
   <diagram name="第 1 页" id="G3Lia--8rtLlRgV-JoW_">
-    <mxGraphModel dx="891" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="HmiihOqF-uF00-IdqwW9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-1" target="HmiihOqF-uF00-IdqwW9-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="HmiihOqF-uF00-IdqwW9-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.rect;fillColor2=none;strokeWidth=1;size=20;indent=5;" vertex="1" parent="1">
+          <mxGeometry x="120" y="70" width="350" height="440" as="geometry" />
         </mxCell>
-        <mxCell id="HmiihOqF-uF00-IdqwW9-1" value="打赏" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="140" y="50" width="100" height="60" as="geometry" />
+        <mxCell id="HmiihOqF-uF00-IdqwW9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="HmiihOqF-uF00-IdqwW9-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="20" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmiihOqF-uF00-IdqwW9-18" value="打赏" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HmiihOqF-uF00-IdqwW9-3">
+          <mxGeometry x="-0.1909" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-2" target="HmiihOqF-uF00-IdqwW9-9">
           <mxGeometry relative="1" as="geometry">
@@ -22,7 +29,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-6" value="调度程序" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="540" y="120" width="100" height="100" as="geometry" />
+          <mxGeometry x="560" y="120" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-7" target="HmiihOqF-uF00-IdqwW9-9">
           <mxGeometry relative="1" as="geometry" />
@@ -33,20 +40,23 @@
         <mxCell id="HmiihOqF-uF00-IdqwW9-9" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="335" y="255" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="HmiihOqF-uF00-IdqwW9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-11" target="HmiihOqF-uF00-IdqwW9-9">
+        <mxCell id="HmiihOqF-uF00-IdqwW9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-11" target="HmiihOqF-uF00-IdqwW9-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmiihOqF-uF00-IdqwW9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-11" target="HmiihOqF-uF00-IdqwW9-13">
+        <mxCell id="HmiihOqF-uF00-IdqwW9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HmiihOqF-uF00-IdqwW9-11" target="HmiihOqF-uF00-IdqwW9-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-11" value="榜单查询&lt;br&gt;计算实时排名RTRankNo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="320" y="400" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-13" value="展示" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="420" width="100" height="60" as="geometry" />
+          <mxGeometry x="-10" y="420" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HmiihOqF-uF00-IdqwW9-15" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border: none; padding: 0px; font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;排名字段说明：&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;LastRankNo = 榜单上一次结算时的排名&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;RankNo = 榜单结算时的排名&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;RTRankNo = 查询榜单时，实时计算的排名&lt;/b&gt;&lt;/blockquote&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#FF3333;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="530" y="325" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HmiihOqF-uF00-IdqwW9-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="-50" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
