@@ -1,9 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2023-07-20T02:39:49.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.0" etag="ceIkA-28HiyHM0xVJ368" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-21T09:46:57.068Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="HmHhQ1LrHoyByUbmVuXP" version="21.5.0" type="github">
   <diagram name="第 1 页" id="HSz0-U5ruDRwE5ctq2Hr">
-    <mxGraphModel>
+    <mxGraphModel dx="2220" dy="651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RUTxSPl0zFAyDIC0CaXp-1" target="RUTxSPl0zFAyDIC0CaXp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-1" value="https://router.dev.fantasysz.com/api/loginauth?login_verifier=inIj87ub&amp;amp;login_challenge=93af40bd703b4aa6a8753eda0b317fd6" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="40" width="460" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RUTxSPl0zFAyDIC0CaXp-2" target="RUTxSPl0zFAyDIC0CaXp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-2" value="https://auth.dev.fantasysz.com/oauth2/auth?&lt;br&gt;applicationcode=TenantConsole&lt;br&gt;&amp;amp;client_id=cf2a2d2d-39cd-43c7-ad7d-5a617d9bd0dd&lt;br&gt;&amp;amp;login_verifier=25b5f7c863e34f82a50a74d8db684715&lt;br&gt;&amp;amp;redirect_uri=https%3A%2F%2Fprovider.dev.fantasysz.com%2Ftc%2Fapi%2Fauth%2Fidentity&lt;br&gt;&amp;amp;response_type=code&lt;br&gt;&amp;amp;scope=openid+profile&lt;br&gt;&amp;amp;state=PacD7Q5Rwkam3Gr1cuIy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RUTxSPl0zFAyDIC0CaXp-3" target="RUTxSPl0zFAyDIC0CaXp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-3" value="https://router.dev.fantasysz.com/api/consent?consent_challenge=0baf0a0dcd524c6996a222203df1b173" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RUTxSPl0zFAyDIC0CaXp-6" target="RUTxSPl0zFAyDIC0CaXp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-6" value="https://auth.dev.fantasysz.com/oauth2/auth?&lt;br&gt;applicationcode=TenantConsole&lt;br&gt;&amp;amp;client_id=cf2a2d2d-39cd-43c7-ad7d-5a617d9bd0dd&lt;br&gt;&amp;amp;consent_verifier=c78f717f9b6b49198bdd3b4c46557496&lt;br&gt;&amp;amp;redirect_uri=https%3A%2F%2Fprovider.dev.fantasysz.com%2Ftc%2Fapi%2Fauth%2Fidentity&lt;br&gt;&amp;amp;response_type=code&lt;br&gt;&amp;amp;scope=openid+profile&lt;br&gt;&amp;amp;state=PacD7Q5Rwkam3Gr1cuIy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="400" width="530" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RUTxSPl0zFAyDIC0CaXp-6" target="RUTxSPl0zFAyDIC0CaXp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-9" value="https://provider.dev.fantasysz.com/tc/api/auth/identity?&lt;br&gt;code=ory_ac_MVqG8p1jloP43OhY0I4ivQhy-il0X97IYpDmgN26srk.2gYc2YO57QzqankcoamdB3IO4MjbaZcqCX5pQ7MiZOY&lt;br&gt;&amp;amp;scope=openid+profile&lt;br&gt;&amp;amp;state=PacD7Q5Rwkam3Gr1cuIy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="570" width="515" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-11" value="&lt;code style=&quot;box-sizing: border-box; border: 0px solid rgb(229, 231, 235); --tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: #3b82f680; --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, &amp;quot;Liberation Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, monospace; font-size: 0.875em; color: rgb(59, 130, 246); background-color: rgb(239, 246, 255); border-radius: 0.25rem; padding: 0.25em 0.5rem; width: var(--content-width); max-width: var(--content-width); text-align: start;&quot;&gt;AuthenticateService&lt;/code&gt;&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="760" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-12" value="Credentials" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="670" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-13" value="Basic Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="760" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-14" value="Digest Auth" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="850" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RUTxSPl0zFAyDIC0CaXp-16" value="endpoint 指定对应的auth provider" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="760" width="220" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
